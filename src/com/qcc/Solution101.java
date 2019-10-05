@@ -1,5 +1,7 @@
 package com.qcc;
 
+import com.qcc.common.TreeNode;
+
 /**
  * @Description
  * @Author：create by qianchaochen at 2019年10月04日23:37
@@ -40,15 +42,5 @@ public class Solution101 {
             return false;
         }
         return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
     }
 }

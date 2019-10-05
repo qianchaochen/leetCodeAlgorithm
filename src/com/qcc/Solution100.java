@@ -1,5 +1,7 @@
 package com.qcc;
 
+import com.qcc.common.TreeNode;
+
 /**
  * @Description create by qianchaochen at 2019年06月16日22:06
  */
@@ -17,11 +19,3 @@ public class Solution100 {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
-}
