@@ -1,4 +1,4 @@
-package com;
+package com.qcc;
 
 /**
  * @Description 不同路径m*n(水平走n-1步,垂直走m-1步)
