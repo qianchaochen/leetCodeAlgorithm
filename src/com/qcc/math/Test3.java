@@ -17,13 +17,13 @@ public class Test3 {
     }
 
     /**
-     * 随机生成10以内的数字加法
+     * 随机生成20以内的数字加法
      * 幼儿园大二班
      */
     public static void randSum() {
         Random rdm = new Random();
-        int m = rdm.nextInt(20) + 10;
-        int n = rdm.nextInt(10);
+        int m = rdm.nextInt(20);
+        int n = rdm.nextInt(20);
         if (n == 0) {
             n = 1;
         }
