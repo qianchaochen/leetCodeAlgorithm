@@ -1,4 +1,4 @@
-package com.qcc.string;
+package com.qcc.tree;
 
 import com.qcc.common.TreeNode;
 
