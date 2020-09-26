@@ -50,7 +50,7 @@ public class Solution0403 {
             dummy.next = null;
         }
 
-        return list.toArray(ListNode[]::new);
+        return (ListNode[])list.toArray();
     }
 
 
