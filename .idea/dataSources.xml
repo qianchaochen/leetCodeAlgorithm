@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="监护prd-读" read-only="true" uuid="a6ba53ee-17a0-4bc7-82a9-06eb87292006">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.14.145.25:1433;database=wipprd</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="监护prd-读写" uuid="2c5c1755-3ea6-4748-9bdd-c08922598b83">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.14.145.26:1433;database=wipprd</jdbc-url>
+    </data-source>
+  </component>
+</project>
