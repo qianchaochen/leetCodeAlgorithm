@@ -1,7 +1,7 @@
 package com.mindray.recursion;
 
 /**
- * description:
+ * description:打印字符串
  * created by qianchaochen at 2020-11-14
  */
 public class Print {
