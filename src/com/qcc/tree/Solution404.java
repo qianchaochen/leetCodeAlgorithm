@@ -1,7 +1,6 @@
 package com.qcc.tree;
 
 import com.qcc.common.TreeNode;
-import sun.reflect.generics.tree.Tree;
 
 /**
  * @Description 404. 左叶子之和
